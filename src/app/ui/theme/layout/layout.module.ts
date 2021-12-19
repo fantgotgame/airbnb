@@ -8,7 +8,10 @@ import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [HeaderComponent, LayoutComponent, FooterComponent, MainComponent],
-  imports: [CommonModule, RouterModule],
+  imports: [CommonModule, RouterModule,
+    MatToolbarModule,
+    MatButtonModule,
+    MatIconModule],
   providers: [],
 })
 export class LayoutModule {}
